@@ -31,8 +31,8 @@ descriptions = {
 # ==============================
 # Bagian Model
 # ==============================
-MODEL_PATH = "no_tuning.h5"
-MODEL_FILE_ID = "1vegErZ4PlOpdbZ7l3_cRj_8lz36KYSfQ"  # ganti dengan ID modelmu
+MODEL_PATH = "tuning.keras"
+MODEL_FILE_ID = "1PcszxqwB93XYNkj97NMDqZcTj8FpR7RQ"  # ganti dengan ID modelmu
 
 # Download model jika belum ada
 if not os.path.exists(MODEL_PATH):
