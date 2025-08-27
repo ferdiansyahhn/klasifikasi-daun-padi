@@ -15,6 +15,20 @@ st.title("🌾 Klasifikasi Penyakit Daun Padi")
 class_names = ["berat", "sedang", "sehat-ringan"]
 
 # ==============================
+# Deskripsi kelas
+# ==============================
+descriptions = {
+    "berat": "🟥 Kondisi daun padi sudah parah. Penyakit menyebar luas dan mengganggu fotosintesis. "
+             "Sebaiknya dilakukan pengendalian segera dengan fungisida atau metode pengendalian terpadu.",
+
+    "sedang": "🟧 Daun padi menunjukkan gejala penyakit tingkat menengah. Masih bisa dikendalikan dengan "
+              "perawatan intensif, pemupukan berimbang, dan monitoring rutin.",
+
+    "sehat-ringan": "🟩 Daun padi dalam kondisi sehat atau hanya mengalami gejala ringan. "
+                    "Pertumbuhan masih optimal, cukup lakukan perawatan normal dan pencegahan."
+}
+
+# ==============================
 # Bagian Model
 # ==============================
 MODEL_PATH = "no_tuning.h5"
@@ -84,5 +98,10 @@ if image_file is not None:
             predicted_class = np.argmax(preds, axis=-1)[0]
             confidence = np.max(preds)
 
-        st.success(f"✅ Prediksi: **{class_names[predicted_class]}**")
+        predicted_label = class_names[predicted_class]
+
+        st.success(f"✅ Prediksi: **{predicted_label}**")
         st.write(f"📊 Confidence: **{confidence*100:.2f}%**")
+
+        # tampilkan deskripsi sesuai kelas
+        st.info(f"📝 Penjelasan: {descriptions[predicted_label]}")
