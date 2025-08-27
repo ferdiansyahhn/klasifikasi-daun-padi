@@ -3,6 +3,6 @@ pandas
 Pillow
 streamlit
 tensorflow
-requests
+gdown
 streamlit-lottie
-matplotlib>=3.0.0
+
