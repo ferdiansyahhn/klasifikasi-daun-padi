@@ -12,7 +12,7 @@ st.set_page_config(page_title="Klasifikasi Penyakit Padi", page_icon="🌾", lay
 st.title("🌾 Klasifikasi Penyakit Daun Padi")
 
 # Nama kelas
-class_names = ["sehat-Ringan", "Sedang", "Berat"]
+class_names = ["sehat-ringan", "Sedang", "Berat"]
 
 # ==============================
 # Bagian Model
@@ -36,7 +36,7 @@ model = load_model()
 # Bagian Dataset (3 ZIP)
 # ==============================
 DATASETS = {
-    "ringan": "1vZjaT0GTk5UNgxGS4hzI72xIPTsahApt",  # ganti dengan file ID asli dari Google Drive
+    "sehat-ringan": "1vZjaT0GTk5UNgxGS4hzI72xIPTsahApt",  # ganti dengan file ID asli dari Google Drive
     "sedang": "1rApUL_cT5zhWqJqgxGFjTLMAQLRhcltg",
     "berat": "1rApUL_cT5zhWqJqgxGFjTLMAQLRhcltg"
 }
