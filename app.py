@@ -38,7 +38,7 @@ model = load_model()
 DATASETS = {
     "sehat-ringan": "1vZjaT0GTk5UNgxGS4hzI72xIPTsahApt",  # ganti dengan file ID asli dari Google Drive
     "sedang": "1rApUL_cT5zhWqJqgxGFjTLMAQLRhcltg",
-    "berat": "1rApUL_cT5zhWqJqgxGFjTLMAQLRhcltg"
+    "berat": "1pcpNJdZ5d9Y2a9zgh6AEQWMXNWDm1KWK"
 }
 
 for name, file_id in DATASETS.items():
