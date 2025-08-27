@@ -12,7 +12,7 @@ st.set_page_config(page_title="Klasifikasi Penyakit Padi", page_icon="🌾", lay
 st.title("🌾 Klasifikasi Penyakit Daun Padi")
 
 # Nama kelas
-class_names = ["sehat-ringan", "Sedang", "Berat"]
+class_names = ["berat", "sedang", "sehat-ringan"]
 
 # ==============================
 # Bagian Model
