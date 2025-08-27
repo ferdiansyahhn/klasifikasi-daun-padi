@@ -16,7 +16,7 @@ class_names = ["Ringan", "Sedang", "Berat"]
 
 # Path model
 MODEL_PATH = "no tuning.h5"
-FILE_ID = "1AbCdEfGhIjKLMNOPqRstUvWxYz"  
+FILE_ID = "1vegErZ4PlOpdbZ7l3_cRj_8lz36KYSfQ"  
 
 # Download model jika belum ada
 if not os.path.exists(MODEL_PATH):
