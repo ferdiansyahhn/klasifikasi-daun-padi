@@ -101,7 +101,7 @@ if image_file is not None:
         predicted_label = class_names[predicted_class]
 
         st.success(f"✅ Prediksi: **{predicted_label}**")
-        st.write(f"📊 Confidence: **{confidence*100:.2f}%**")
+        st.write(f"📊 Akurasi: **{confidence*100:.2f}%**")
 
         # tampilkan deskripsi sesuai kelas
         st.info(f"📝 Penjelasan: {descriptions[predicted_label]}")
