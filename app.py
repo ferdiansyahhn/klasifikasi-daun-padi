@@ -36,9 +36,9 @@ model = load_model()
 # Bagian Dataset (3 ZIP)
 # ==============================
 DATASETS = {
-    "sehat-ringan": "1vZjaT0GTk5UNgxGS4hzI72xIPTsahApt",  # ganti dengan file ID asli dari Google Drive
+    "berat": "1pcpNJdZ5d9Y2a9zgh6AEQWMXNWDm1KWK",
     "sedang": "1rApUL_cT5zhWqJqgxGFjTLMAQLRhcltg",
-    "berat": "1pcpNJdZ5d9Y2a9zgh6AEQWMXNWDm1KWK"
+    "sehat-ringan": "1vZjaT0GTk5UNgxGS4hzI72xIPTsahApt"  # ganti dengan file ID asli dari Google Drive
 }
 
 for name, file_id in DATASETS.items():
