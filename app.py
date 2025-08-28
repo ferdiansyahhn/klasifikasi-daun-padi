@@ -31,7 +31,7 @@ descriptions = {
 # ==============================
 # Bagian Model
 # ==============================
-MODEL_PATH = "no_tuning.h5"
+MODEL_PATH = "no tuning.h5"
 MODEL_FILE_ID = "1vegErZ4PlOpdbZ7l3_cRj_8lz36KYSfQ"  # ganti dengan ID modelmu
 
 # Download model jika belum ada
